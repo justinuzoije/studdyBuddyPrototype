@@ -1,0 +1,22 @@
+body {
+    font-family: 'Lucida Grande';
+    background-color: #3b5998;
+}
+
+
+@media screen and (max-width: 960px) {
+    .product-image, .product-info {
+        width: 100%;
+        padding: 30px;
+    }
+    .product-image {
+        text-align: center;
+    }
+    .product-image img {
+        text-align: center;
+        max-width: 400px;
+    }
+    .signUp {
+        padding: 24px;
+    }
+}
